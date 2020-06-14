@@ -1,0 +1,27 @@
+{
+  "name": "@opennetwork/rdf-namespace-javascript",
+  "version": "1.0.0",
+  "main": "./esnext/index.js",
+  "types": "./esnext/index.d.ts",
+  "exports": {
+    ".": "./esnext/index.js"
+  },
+  "license": "MIT",
+  "private": false,
+  "author": "Fabian Cook <hello@fabiancook.dev>",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && yarn postbuild",
+    "postbuild": "node scripts/post-build.js"
+  },
+  "devDependencies": {
+    "@opennetwork/rdf-data-model": "^5.2.6",
+    "@opennetwork/rdf-dataset": "^8.2.1",
+    "filehound": "^1.17.4",
+    "typescript": "^3.9.5"
+  },
+  "peerDependencies": {
+    "@opennetwork/rdf-data-model": "*",
+    "@opennetwork/rdf-dataset": "*"
+  }
+}
