@@ -7,6 +7,16 @@ export type LiteralInput =
     | BigInt
     | Date
 
+export function isLiteralInput(value: unknown): value is LiteralInput {
+    return (
+        typeof value === "string" ||
+        typeof value === "number" ||
+        typeof value === "boolean" ||
+        typeof value === "bigint" ||
+        value instanceof Date
+    )
+}
+
 export function literal(input: LiteralInput): Literal {
     if (typeof input === "string") {
         return new Literal(input, "", DefaultDataFactory.namedNode("http://www.w3.org/2001/XMLSchema#string"))
