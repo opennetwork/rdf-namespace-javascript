@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@opennetwork/rdf-data-model@^5.2.6":
-  version "5.2.6"
-  resolved "https://registry.npmjs.org/@opennetwork/rdf-data-model/-/rdf-data-model-5.2.6.tgz#0e0ebd2d64b3eb20563e28bc48988075a4389f41"
-  integrity sha512-e826NM+q7en2wFjSanrvIIGrqzeOIV1+iBApByE+L8P1La9FQOrvZp6VFSoS3O05brDGgG9h9LMVVFAemRrURw==
+"@opennetwork/rdf-data-model@^5.3.1":
+  version "5.3.1"
+  resolved "https://registry.npmjs.org/@opennetwork/rdf-data-model/-/rdf-data-model-5.3.1.tgz#85a5886ca3d5b8cbefbca086f983cca6f833f89e"
+  integrity sha512-lnjHwYLr7MTkWdjETBzm2BGnqDWVKUDdg2muaQmese9nzw9+UQRMykXII7ppwSVNKTs9NOOFd8yYrZKTon/FcA==
   dependencies:
     pure-uuid "^1.6.0"
 

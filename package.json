@@ -15,7 +15,7 @@
     "postbuild": "node scripts/post-build.js"
   },
   "devDependencies": {
-    "@opennetwork/rdf-data-model": "^5.2.6",
+    "@opennetwork/rdf-data-model": "^5.3.1",
     "@opennetwork/rdf-dataset": "^8.2.1",
     "filehound": "^1.17.4",
     "typescript": "^3.9.5"
